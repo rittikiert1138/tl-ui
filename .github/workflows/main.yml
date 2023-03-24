@@ -22,8 +22,8 @@ jobs:
           ref: main
       - run: |
           git push origin main --tags
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name rittikiert1138
+          git config user.email rittikiert1138@github.com
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
