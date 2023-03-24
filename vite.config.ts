@@ -23,9 +23,9 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve('src', 'components/index.ts'),
-      name: 'ReactViteLibrary',
+      name: 'ThailifeLibrary',
       formats: ['es', 'umd'],
-      fileName: (format) => `react-vite-library.${format}.js`,
+      fileName: (format) => `tl-ui.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
