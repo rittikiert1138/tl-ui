@@ -1,3 +1,5 @@
+export type {ButtonProps} from './Button'
 export { Button } from './Button'
+export type { ContainerProps} from './Container'
 export { Container } from './Container'
 import './tl-ui.css'

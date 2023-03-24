@@ -1,10 +1,10 @@
 import React from 'react'
 
-interface ButtonProps {
+export interface ContainerProps {
     children?: any;
 }
 
-export const Container = (props:ButtonProps) => {
+export const Container = (props:ContainerProps) => {
   return (
     <div className='container'>
         {props.children}
