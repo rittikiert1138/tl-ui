@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    cursor: pointer;
+    min-width: 120px;
+    height: 40px;
+    border: 0;
+}
+.btn-primary{
+    background-color: #2575c4;
+    color: #fff;
+    transition: ease-in-out 150ms;
+}
+
+.btn-primary:hover{
+    background-color: #1a5187;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
