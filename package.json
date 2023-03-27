@@ -28,13 +28,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/tl-ui.es.js",
-      "require": "./dist/tl-ui.umd.js"
+      "import": "./dist/thailife-ui.es.js",
+      "require": "./dist/thailife-ui.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/tl-ui.umd.js",
-  "module": "./dist/tl-ui.es.js",
+  "main": "./dist/thailife-ui.umd.js",
+  "module": "./dist/thailife-ui.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^18.7.6",
